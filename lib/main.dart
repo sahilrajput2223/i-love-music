@@ -11,12 +11,16 @@ class ILoveMusic extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.white70,
+        backgroundColor: Colors.black,
         appBar: AppBar(
           title: const Text("I Love Music"),
-          backgroundColor: Colors.white10,
+          backgroundColor: Colors.teal,
         ),
-        body: const Center(),
+        body: const Center(
+          child: Image(
+            image: AssetImage("assets/images/music.jpg"),
+          ),
+        ),
       ),
     );
   }

@@ -9,6 +9,15 @@ class ILoveMusic extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.white70,
+        appBar: AppBar(
+          title: const Text("I Love Music"),
+          backgroundColor: Colors.white10,
+        ),
+        body: const Center(),
+      ),
+    );
   }
 }
